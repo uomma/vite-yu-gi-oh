@@ -1,9 +1,11 @@
 <script >
 import ListCaracters from './ListCaracters.vue';
+import ListCount from './ListCount.vue';
 export default{
     name: 'main',
     components: {
        ListCaracters,
+       ListCount,
     }
 }
 </script>
@@ -22,6 +24,7 @@ export default{
                     <li><a class="dropdown-item" href="#">Something else here</a></li>
                 </ul>
             </div>
+            <ListCount/>
             <ListCaracters/>
         </main>
  
